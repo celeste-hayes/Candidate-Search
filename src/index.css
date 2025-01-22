@@ -4,9 +4,6 @@
   font-family: 'Inter Tight', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -103,29 +100,6 @@ button.approve {
   color: black;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-tr {
-  border-radius: 10px;
-  background-color: #000;
-  color: white;
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #333333;
-}
-
 .nav {
   display: flex;
   justify-content: flex-start;
@@ -148,7 +122,37 @@ tbody tr:nth-child(odd) {
   font-weight: 700;
 }
 
-.table {
-  width: 80vw;
-  table-layout: fixed;
+.table-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.table th, .table td {
+  padding: 0.75rem;
+  text-align: center;
+  vertical-align: middle;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.table td img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.table .bio-column {
+  max-width: 200px;
+  text-align: left;
+}
+
+.table td button {
+  width: 30px;
+  height: 30px;
+  font-size: 1.5em;
+  border-radius: 50%;
+  padding: 0;
 }
