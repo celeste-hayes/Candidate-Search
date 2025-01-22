@@ -3,9 +3,9 @@ This is a Candidate Search application that allows users to search for candidate
 
 You can click to view the live site [here](https://candidate-search-l1g1.onrender.com/) on Render. 
 
-public/CandidateSearch.png
-public/NoCandidatesSaved.png
-public/PotentialCandidates.png
+![Screenshot of the Deployed Application](public/CandidateSearch.png)
+![Screenshot of the Deployed Application](public/NoCandidatesSaved.png)
+![Screenshot of the Deployed Application](public/PotentialCandidates.png)
 
 ## Table of Contents
 * [Features](#features) 
