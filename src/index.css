@@ -33,7 +33,6 @@ body {
   background-repeat: no-repeat no-repeat;
   background-position: center center;
   margin: 0;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -131,6 +130,8 @@ tbody tr:nth-child(odd) {
   display: flex;
   justify-content: flex-start;
   padding: 1em 2em;
+  list-style: none;
+  margin: 0;
 }
 
 .nav-item {
@@ -139,11 +140,11 @@ tbody tr:nth-child(odd) {
 }
 
 .nav-link {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 
-.active {
+.nav-link.active {
   font-weight: 700;
 }
 
